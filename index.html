@@ -11,33 +11,29 @@
     <link rel="icon" href="../../favicon.ico">
 
     <title>Justified Nav Template for Bootstrap</title>
-	<style>
-		background-image: url("paper.gif");
-	</style>
+
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="justified-nav.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="dist/css/justified-nav.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+<script type="text/javascript">
+
+</script>
   </head>
 
-  <body>
-
-    <div class="container">
-
+  <body style="background-image: url('dist/imgs/paisley1.png')";>
+	<div class="container">
 
       <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
@@ -46,39 +42,41 @@
         <nav>
           <ul class="nav nav-justified">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Downloads</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#">Meet Cynthia</a></li>
+            <li><a href="#">Cynthia's Books</a></li>
+            <li><a href="#">Latest News!</a></li>
+            <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
 
       <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1>Marketing stuff!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
-      </div>
-
+	 <div class="row">
+     <div class="col-xs-12">
+      <div class="jumbotron" style="background-image: url('dist/imgs/GatW.jpg')";>
+	  <br><br>
+        <p><a class="btn btn-lg btn-success" href="#" style="background:pink; border-color:gray;" role="button">Purchase</a></p>
+		<br><br>
+		</div>
+	 </div>
+	 </div>
+   <br>
+   <div class="container">
+   <a href="http://cynthiacooke.com/feed/rss/" title="Subscribe to my rss feed"><img border="0" src="dist/imgs/rss.png" width="30" height="30"></a>
+   <a href="https://twitter.com/CynthiaCooke5" title="Follow me on Twitter" target="_blank"><img border="0" src="dist/imgs/tw.png" width="30" height="30"></a>
+   <a href="https://www.facebook.com/cynthia.cooke" title="Follow me on Facebook" target="_blank"><img border="0" src="dist/imgs/fb.png" width="30" height="30"></a>
+   <a href="https://plus.google.com/u/0/103511878617597905582" title="Follow me on Google+" target="_blank"><img border="0" src="dist/imgs/g.png" width="30" height="30"></a>
+ </div>
+	 <br>
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-lg-4">
-          <h2>Safari bug warning!</h2>
-          <p class="text-danger">As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-lg-12"> 
+		  <div id = "text">
+		</div>
+		<h3>EXCERPT:</h3>
+		<p>Crashing a wedding was always easier in the movies.</p>
+		<p></p>
         </div>
       </div>
 
@@ -92,5 +90,6 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
   </body>
 </html>
